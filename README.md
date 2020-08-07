@@ -33,8 +33,6 @@ _Figure 1 Old structure of the Moldova OCDS Contract Data Visualisation tool_
 
 ![](https://github.com/EBRD-MoldovaOpenContracting/Moldova-Data-Load/blob/master/Figures/Figure%201%20Old%20structure%20of%20the%20Moldova%20OCDS%20Contract%20Data%20Visualisation%20tool.png)
 
-![](RackMultipart20200807-4-rqom3o_html_4497d747666de6.png)
-
 The following list of tasks was formulated for the purpose of the assignment to redevelop the old version of the Moldova OCDS Contract Data Visualisation tool:
 
 - Review the source code from the GitHub repository of the old version of the Moldova OCDS Contract Data Visualisation tool, which was designed by another technical team. Consider whether it can be adjusted to receive new data from the MTender and Meapps databases along with the old ones, thus operating in the multi-platform environment.
