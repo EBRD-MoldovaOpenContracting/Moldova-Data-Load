@@ -12,7 +12,7 @@ OCDS-based visualisation tool and OCDS data feed are redeveloped to handle avail
 ### Project status:
 Fully deployed
 
-# Problem statement
+## Problem statement
 The value and reliability of knowledge obtained as a result of data analysis depend not only on the effectiveness of the analytical methods and algorithms used but also on how properly the initial data for analysis are selected and prepared. In the real world, there are a lot of issues that are to be faced during data selection and preparation. The most common issues, as well as influencing the development process, are the following:
 
 - More than one data source (multi-platform systems);
@@ -39,3 +39,24 @@ The following list of tasks was formulated for the purpose of the assignment to 
 - Map the data from new data sources to the OCDS format that is used on the portal to display the correct data.
 - Develop a data import module that aims to extract data from the MTender and Meapps OCDS APIs, transform it to the required OCDS format used on the web portal and further export these OCDS formatted data as a JSON or comma-separated values (CSV) file.
 - Deploy a web portal prototype based on the multi-platform system to the new server.
+
+## Technological solution and implementation
+### The initial stage development issues
+
+At the very beginning of the redevelopment process, the technical team pulled the source code from the original repository. As soon as the database (DB) was not initialised when the application starts, the technical team had to find a backup copy of the DB in the source code. Then, a number of issues were also faced that, certainly, could cause a delay in completing the assignment. The project team discovered these issues, identified ways to resolve them and fixed defined issues where possible. The list of issues, as mentioned earlier, is the following:
+
+1. **Issue** : the source code of the portal didn&#39;t allow viewing data after the 2017 year.\
+**Possible reasons** : all variables were hard coded for the period until the 2017 year and didn&#39;t display new data.\
+**Actions performed to fix** : all &quot;2017&quot; values in the code were removed and updated to a dynamically calculated variable based on data for the last year in the database.
+
+1. **Issue** : Etender import scripts failure while scraping data from the website.\
+**Possible reasons** : errors in the import scripts.\
+**Actions performed to fix** :added exception handlers for errors when the source formatting differs from what the scraping tool expects.
+
+1. **Issue** : no documentation on what data is stored in the collections and used for each query on the website.\
+**Possible reasons** : the documentation wasn&#39;t prepared during the development of the old version of the website.\
+**Actions performed to fix** : all the necessary data from the website were manually mapped to the data from the APIs.
+
+The technical team successfully found the scripts, fixed the issues, and initialised the DB. So, the data from the Etender was pulled to the DB.
+
+
