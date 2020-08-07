@@ -29,6 +29,8 @@ The problem statement for this project was designed according to the requirement
 - [MTender](https://public.mtender.gov.md/tenders) and [Meapps](https://public.api.mepps.openprocurement.net/api/0/tenders) OCDS Application Programming Interfaces (API) as well as their procurement data mapping rules (examples of the OCDS structure of the MTender and Meapps databases are given in Annexes 1 and 2 respectively);
 - [The web-interface](https://opencontracting.eprocurement.systems/).
 
+_Figure 1 Old structure of the Moldova OCDS Contract Data Visualisation tool_
+
 ![](https://github.com/EBRD-MoldovaOpenContracting/Moldova-Data-Load/blob/master/Figures/Figure%201%20Old%20structure%20of%20the%20Moldova%20OCDS%20Contract%20Data%20Visualisation%20tool.png)
 
 ![](RackMultipart20200807-4-rqom3o_html_4497d747666de6.png)
