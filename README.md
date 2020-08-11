@@ -61,7 +61,7 @@ The technical team successfully found the scripts, fixed the issues, and initial
 
 ### Redevelopment steps
 Several steps were performed in order to redevelop the existing old version of the Moldova OCDS Contract Data Visualisation tool. The list below summarises all the steps mentioned above. 
-- Development of the Import-Module to grep  data from the MTender and Meapps APIs;
+- Development of the Import-Module to grep  data from the [MTender](https://public.mtender.gov.md/tenders) and [Meapps](https://public.api.mepps.openprocurement.net/api/0/tenders) APIs;
 - Development of the fetched data grouping module to remove duplicate data;
 - Creation of the adjusted DB (MongoDB), with collections from different sources;
 - Adding dynamic variables to take the last year in the database;
