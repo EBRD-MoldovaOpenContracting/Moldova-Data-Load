@@ -65,4 +65,4 @@ Several steps were performed in order to redevelop the existing old version of t
 - Development of the fetched data grouping module to remove duplicate data;
 - Creation of the adjusted DB (MongoDB), with collections from different sources;
 - Adding dynamic variables to take the last year in the database;
-- Redevelopment of the visual part of the website.
+- Redevelopment of the visual part of the [website](https://opencontracting.eprocurement.systems).
