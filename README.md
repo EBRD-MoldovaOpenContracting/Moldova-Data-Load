@@ -59,4 +59,10 @@ At the very beginning of the redevelopment process, the technical team pulled th
 
 The technical team successfully found the scripts, fixed the issues, and initialised the DB. So, the data from the Etender was pulled to the DB.
 
-
+### Redevelopment steps
+Several steps were performed in order to redevelop the existing old version of the Moldova OCDS Contract Data Visualisation tool. The list below summarises all the steps mentioned above. 
+- Development of the Import-Module to grep  data from the MTender and Meapps APIs;
+- Development of the fetched data grouping module to remove duplicate data;
+- Creation of the adjusted DB (MongoDB), with collections from different sources;
+- Adding dynamic variables to take the last year in the database;
+- Redevelopment of the visual part of the website.
