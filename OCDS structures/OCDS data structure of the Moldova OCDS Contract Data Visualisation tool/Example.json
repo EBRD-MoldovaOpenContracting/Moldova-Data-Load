@@ -1,0 +1,151 @@
+{
+"ocid": "ocds-ngfbwp-30159548",
+"date": "2018-09-21T00:00:00+00:00",
+"id": "30159548",
+"tag": [
+"tender",
+"award",
+"contract"
+],
+"initiationType": "tender",
+"source": "etender.gov.md",
+"tender": {
+"id": 30159548,
+"title": "Tender Ref 18/03943 Bulletin 74",
+"description": "",
+"status": "Procedura finalizată",
+"items": [
+{
+"id": 30467432,
+"description": "Aparat de aer condiționat iarnă/vară(Tip AC 9000BTU )",
+"classification": {
+"scheme": "CPV",
+"id": "39717200-3",
+"description": "Aparate de aer conditionat"
+},
+"quantity": 5,
+"unit": {
+"name": "Bucată"}}],
+"procurementMethod": "Cerere a ofertelor de preţuri",
+"submissionMethod": ["written"],
+"tenderPeriod": {
+"startDate": "2018-09-21T00:00:00+00:00",
+"endDate": "2018-10-12T11:00:00+00:00"
+},
+"numberOfTenderers": 20,
+"tenderers": [{
+"identifier": {
+"id": 31025854,
+"legalName": "S.C. XPERT PC S.R.L."
+},
+"address": {
+"streetAddress": "Republica Moldova, CHIŞINĂU BUIUCANI, mun. Chişinău"
+},
+"contactPoint": {
+"name": "BLAJINA IRINA"
+}}
+],
+"procuringEntity": {
+"identifier": {
+"scheme": "State Registration Chambers",
+"id": "0000000079592",
+"legalName": "Banca Națională a Moldovei"
+},
+"additionalIdentifiers": [{
+"scheme": "eTenders",
+"id": 66,
+"legalName": "Banca Națională a Moldovei"
+}],
+"name": "Banca Națională a Moldovei",
+"address": {
+"streetAddress": "MD-2005, mun. Chisinau, bd. Grigore Vieru 1"
+},
+"contactPoint": {
+"name": "Banca Națională a Moldovei",
+"email": "achizitii.contracte@bnm.md",
+"telephone": "022 822237",
+"faxNumber": "022 228697"
+}
+},
+"documents": [{
+"id": 30467040,
+"title": "Formulare aferente",
+"datePublished": {
+"$date": {
+"$numberLong": "1537315200000"
+}},
+"format": "06_Formulare aferente.docx"
+}]
+},
+"awards": [{
+"id": "award-31395183",
+"title": "Award for Achiziționarea aparatelor de aer condiționat",
+"date": {
+"$date": {
+"$numberLong": "1543536000000"}},
+"value": {
+"amount": 14261,
+"currency": "mdl"
+},
+"suppliers": [{
+"identifier": {
+"id": 30535359,
+"legalName": "S.C. DINA-COCIUG S.R.L."
+},
+"name": "S.C. DINA-COCIUG S.R.L.",
+"address": {
+"streetAddress": "Republica Moldova, CHIŞINĂU BOTANICA, mun. Chişinău"
+},
+"contactPoint": {
+"name": "COCIUG MIHAIL",}}],
+"items": [{
+"id": 49271,
+"classification": {
+"scheme": "CPV",
+"id": "39717200-3",
+"description": "Aparate de aer conditionat"}}],
+"contractPeriod": {
+"startDate": "2018-11-30T00:00:00+00:00",
+"endDate": {
+"$date": {
+"$numberLong": "1546214400000"}}}}
+],
+"contracts": [{
+"id": 31395183,
+"awardID": "award-31395183",
+"title": "18/03943/001 Achiziționarea aparatelor de aer condiționat",
+"status": "Înregistrat(ă)",
+"period": {
+"startDate": "2018-11-30T00:00:00+00:00",
+"endDate": {
+"$date": {
+"$numberLong": "1546214400000"}}},
+"value": {
+"amount": 14261,
+"currency": "mdl"
+},
+"dateSigned": "2018-11-30T00:00:00+00:00"
+}
+],
+"buyer": {
+"identifier": {
+"scheme": "State Registration Chambers",
+"id": "0000000079592",
+"legalName": "Banca Națională a Moldovei"
+},
+"additionalIdentifiers": [{
+"scheme": "eTenders",
+"id": 66,
+"legalName": "Banca Națională a Moldovei"}],
+"name": "Banca Națională a Moldovei",
+"address": {
+"streetAddress": "MD-2005, mun. Chisinau, bd. Grigore Vieru 1",
+"locality": ""
+},
+"contactPoint": {
+"name": "Banca Națională a Moldovei",
+"email": "achizitii.contracte@bnm.md",
+"telephone": "022 822237",
+"faxNumber": "022 228697"}},
+"language": "md"
+}
