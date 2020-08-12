@@ -1,0 +1,209 @@
+{
+"data": {
+"procurementMethod": "open", 
+"numberOfBids": 4, 
+"awardPeriod": {
+"startDate": "2017-02-01T11:48:27.535902+02:00", 
+"endDate": "2017-02-01T13:04:44.657555+02:00"}, 
+"auctionUrl":"https://mepps.openprocurement.auction/tenders/a3093da51cce44799066ead6cddfabc2", 
+"enquiryPeriod": {
+"startDate": "2017-01-24T11:22:06.469833+02:00", 
+"endDate": "2017-01-26T17:00:04+02:00"}, 
+"submissionMethod": "electronicAuction", 
+"procurementMethodType": "belowThreshold", 
+"procuringEntity": {
+"contactPoint": {
+"telephone": "+37322212010", 
+"name": "Marjinean Tatiana", 
+"email": "chirilov79@rambler.ru"}, 
+"identifier": {
+"scheme": "MD-IDNO", 
+"id": "1006601001159", 
+"uri": "http://if.gov.md/", 
+"legalName": "Inspec\u021bia financiar\u0103"}, 
+"name": "Inspec\u021bia financiar\u0103", 
+"kind": "general", 
+"address": {
+"postalCode": "MD 2012", 
+"countryName": "Republica Moldova", 
+"streetAddress": "Alexandru cel Bun 48", 
+"region": "mun. Chi\u0219in\u0103u", 
+"locality": "Chi\u0219in\u0103u"}}, 
+"owner": "9.md", 
+"id": "a3093da51cce44799066ead6cddfabc2", 
+"description": "H\u00e2rtie alb\u0103 A4 pentru imprimare, 75-83g/m2", 
+"documents": [{
+"hash": "md5:3ceec0322abb2c92013dfba9b9d9031e", 
+"language": "ro", 
+"format": "application/pdf", 
+"url":"https://public.docs.mepps.openprocurement.net/get/56cffa70e1e0485c9b81adba9c076f31?KeyID=ce2f6dd4&Signature=UBZSy50XICvEc9g5ZdqpMkXtVYx6UuWI8jVTm0pk7HUBCi81%2Ft3g0RbbF7%252B%2FW7QZtJdlrwSgx%252Btzd060KwkwDg%253D%253D", 
+"title": "Contract model.pdf", 
+"documentOf": "tender", 
+"datePublished": "2017-01-24T11:22:07.173801+02:00", "documentType": "contractProforma", 
+"dateModified": "2017-01-24T11:22:07.173819+02:00", 
+"id": "bc336afa2b2749629795341baf450ed9"}], 
+"title": "H\u00e2rtie pentru birou. Pentru fax \u0219i imprimare.\r\n", "tenderID": "MD-2017-01-24-000002-1", 
+"description_ru": "\u0411\u0435\u043b\u0430\u044f", 
+"dateModified": "2017-02-16T18:40:16.669609+02:00", 
+"status": "complete", 
+"tenderPeriod": {
+"startDate": "2017-01-26T17:00:04+02:00", 
+"endDate": "2017-01-31T17:00:15+02:00"}, 
+"contracts": [{
+"status": "active", 
+"documents": [{
+"hash": "md5:f27e35abfa28a0625c0a64d7def7bcd6", 
+"format": "application/pdf", 
+"url":"https://public.docs.mepps.openprocurement.net/get/107c3c74c5d148d5a747fd9d0a5546b9?KeyID=ce2f6dd4&Signature=ZjFma5NjMIhTrilror52fElgwKjI6AEmeWxw%2FeXk3tCMzS%2FR16PQb4zkvJv2U5bvVV%252BM84h64F8s%2FjFKSnvgBA%253D%253D", 
+"title": "Contract Radop-OPT.pdf", 
+"documentOf": "tender", 
+"datePublished": "2017-02-16T15:19:46.728711+02:00", "documentType": "contractSigned", 
+"dateModified": "2017-02-16T15:19:46.728729+02:00", 
+"id": "ec94ace71cce40159c79dfe5db25a579"}], 
+"title": "Procurarea hirtiei pentru oficiu A4 si fax", 
+"items": [{
+"description": "H\u00e2rtie fax ( 210 mm x 25 mm )", "classification": {
+"scheme": "CPV", 
+"description": "Panglici pentru faxuri", 
+"id": "30192340-6"}, 
+"description_en": "Fax paper ( 210 mm x 25 mm )", "deliveryAddress": {
+"postalCode": "MD-2012", 
+"countryName": "MD", 
+"streetAddress": " Alexandru cel Bun 48", 
+"region": "Chisinau", 
+"locality": "Chi\u0219in\u0103u"}, 
+"deliveryDate": {
+"startDate": "2017-02-10T09:00:47+02:00", 
+"endDate": "2017-08-31T20:00:01+03:00"}, "description_ru": "\u0411\u0443\u043c\u0430\u0433\u0430", 
+"id": "debd755cf5ec4391a8f8741d318bd907", 
+"unit": {
+"code": "H87", 
+"name": "\u0448\u0442\u0443\u043a\u0438"}, "quantity": 20}], 
+"suppliers": [{
+"contactPoint": {
+"telephone": "+37360908822, +37379244419", 
+"name": "Oxana Corcimari ", 
+"email": "radop2008@mail.ru"}, 
+"identifier": {
+"scheme": "MD-IDNO", 
+"id": "1003600050218", 
+"uri": "http://radop.md/", 
+"legalName": "R\u0102DOP-OPT SRL"}, 
+"name": "R\u0102DOP-OPT SRL", 
+"address": {
+"postalCode": "MD-2015", 
+"countryName": "Republica Moldova", 
+"streetAddress": "str. Sarmizegetusa, 15, of. 209", "region": "Chi\u0219in\u0103u", 
+"locality": "Chi\u0219in\u0103u"}}],
+"contractNumber": "13", 
+"period": {
+"startDate": "2017-02-15T15:18:08+02:00", 
+"endDate": "2017-12-31T17:00:50+02:00"}, 
+"value": {
+"currency": "MDL", 
+"amount": 20049.0, 
+"valueAddedTaxIncluded": false}, 
+"dateSigned": "2017-02-07T09:00:01.522000+02:00", 
+"date": "2017-02-16T18:40:16.669609+02:00", 
+"awardID": "6bae88069d8941bdb78cab7b76c15dca", 
+"id": "afd872182bfd4687a1dbb6643c92ca16", 
+"contractID": "MD-2017-01-24-000002-1-11"}], 
+"auctionPeriod": {
+"startDate": "2017-02-01T11:15:27+02:00", 
+"endDate": "2017-02-01T11:48:27.521277+02:00"}, 
+"title_en": "Office paper. For fax and print.", 
+"description_en": "A4 white paper for printing, 75-83g/m2", 
+"awards": [{
+"status": "active", 
+"description": "totul corespunde cerintelor licitatiei", 
+"title": "totul corespunde cerintelor licitatiei", 
+"suppliers": [{
+"contactPoint": {
+"telephone": "+37360908822, +37379244419", 
+"name": "Oxana Corcimari ", 
+"email": "radop2008@mail.ru"}, 
+"identifier": {
+"scheme": "MD-IDNO", 
+"id": "1003600050218", 
+"uri": "http://radop.md/", 
+"legalName": "R\u0102DOP-OPT SRL"}, 
+"name": "R\u0102DOP-OPT SRL", 
+"address": {
+"postalCode": "MD-2015", 
+"countryName": "Republica Moldova", 
+"streetAddress": "str. Sarmizegetusa, 15, of. 209", "region": "Chi\u0219in\u0103u", 
+"locality": "Chi\u0219in\u0103u"}}],
+"complaintPeriod": {
+"startDate": "2017-02-01T11:48:27.536493+02:00", 
+"endDate": "2017-02-01T13:05:44.657316+02:00"}, 
+"bid_id": "98cedd833b474339a85959992ad93344", 
+"value": {
+"currency": "MDL", 
+"amount": 20049.0, 
+"valueAddedTaxIncluded": false}, 
+"date": "2017-02-01T13:04:44.660625+02:00", 
+"id": "6bae88069d8941bdb78cab7b76c15dca"}], 
+"date": "2017-02-16T18:40:16.669609+02:00", 
+"minimalStep": {
+"currency": "MDL", 
+"amount": 275.0, 
+"valueAddedTaxIncluded": false}, 
+"items": [{
+"description": "H\u00e2rtie fax ( 210 mm x 25 mm )", "classification": {
+"scheme": "CPV", 
+"description": "Panglici pentru faxuri", 
+"id": "30192340-6"}, 
+"description_en": "Fax paper ( 210 mm x 25 mm )", "deliveryAddress": {
+"postalCode": "MD-2012", 
+"countryName": "MD", 
+"streetAddress": " Alexandru cel Bun 48", 
+"region": "Chisinau", 
+"locality": "Chi\u0219in\u0103u"}, 
+"deliveryDate": {
+"startDate": "2017-02-10T09:00:47+02:00", 
+"endDate": "2017-08-31T20:00:01+03:00"}, "description_ru": "\u0411\u0443\u043c\u0430\u0433\u0430", 
+"id": "debd755cf5ec4391a8f8741d318bd907", 
+"unit": {
+"code": "H87", 
+"name": "\u0448\u0442\u0443\u043a\u0438"}, "quantity": 20}], 
+"bids": [{
+"status": "active", 
+"documents": [{
+"hash": "md5:13e2f788101b90f25fefe6da06465d1a", 
+"format": "application/pdf", 
+"url": "https://public.docs.mepps.openprocurement.net/get/1e9b9fc935534333b25750d7921d15e6?KeyID=ce2f6dd4&Signature=B7qOu4yilnT63D%252Bgu2bHBCWLe24Z0hZgPc%2F80AtshSoUGC717TBW3aMOu7LsY%252Bo8J14nYWRFJUOsQ4ZRjsLsCA%253D%253D", 
+"title": "Param tehnici MS A4.pdf", 
+"documentOf": "tender", 
+"datePublished": "2017-01-31T16:08:53.546460+02:00", "documentType": "technicalProposal", 
+"dateModified": "2017-01-31T16:08:53.546476+02:00", 
+"id": "72864b3a51964bcdbd8195fb5c348ea9"}], 
+"value": {
+"currency": "MDL", 
+"amount": 20049.0, 
+"valueAddedTaxIncluded": false}, 
+"tenderers": [{
+"contactPoint": {
+"telephone": "+37360908822, +37379244419", 
+"name": "Oxana Corcimari ", 
+"email": "radop2008@mail.ru"}, 
+"identifier": {
+"scheme": "MD-IDNO", 
+"id": "1003600050218", 
+"uri": "http://radop.md/", 
+"legalName": "R\u0102DOP-OPT SRL"}, 
+"name": "R\u0102DOP-OPT SRL", 
+"address": {
+"postalCode": "MD-2015", 
+"countryName": "Republica Moldova", 
+"streetAddress": "str. Sarmizegetusa, 15, of. 209", "region": "Chi\u0219in\u0103u", 
+"locality": "Chi\u0219in\u0103u"}}], 
+"date": "2017-02-01T11:28:22.414171+02:00", 
+"id": "98cedd833b474339a85959992ad93344", 
+"participationUrl":"https://mepps.openprocurement.auction/tenders/a3093da51cce44799066ead6cddfabc2/login?bidder_id=98cedd833b474339a85959992ad93344&hash=8b0880208d46e7e5d4f1042da5a732341c5ed7df"}],
+"value": {
+"currency": "MDL", 
+"amount": 22816.7, 
+"valueAddedTaxIncluded": false}, 
+"title_ru":"\u0411\u0443\u043c\u0430\u0433\u0430", 
+"awardCriteria":"lowestCost"}
+}
