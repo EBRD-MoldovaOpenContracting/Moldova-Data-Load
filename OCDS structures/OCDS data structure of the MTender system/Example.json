@@ -1,0 +1,140 @@
+{
+"uri": "http://public.mtender.gov.md/tenders/ocds-b3wdp1-MD1548828390760/ocds-b3wdp1-MD-1548828390760-AC-1551304508588",
+"version": "1.1",
+"extensions": [
+"https://raw.githubusercontent.com/opencontracting/ocds_bid_extension/v1.1.1/extension.json", 
+"https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension$/v1.1.1/extension.json"], 
+"publisher": {
+"name": "M-Tender", 
+"uri":"https://www.mtender.gov.md"}, 
+"license": "http://opendefinition.org/licenses/", 
+"publicationPolicy": "http://opendefinition.org/licenses/", "publishedDate": "2019-02-13T09:45:47Z", 
+"releases": [
+{
+"ocid": "ocds-b3wdp1-MD-1548828390760-AC-1551304508588", 
+"id": "ocds-b3wdp1-MD-1548828390760-AC-1551304508588-1550051147925", 
+"date": "2019-02-13T09:45:47Z", 
+"tag": ["contract"], 	
+"initiationType": "tender", 
+"tender": {
+"id": "ocds-b3wdp1-MD-1548828390760", 
+"lots": [{
+"id": "bce2f2f1-2459-11e9-bc94-25b0c2da1c29", "title": "Set unic de produse alimentare", 
+"description": "I Componența setului este aprobată prin ordinul Ministerul Sănătății Muncii și Protecției Sociale", 
+"placeOfPerformance": {
+"address": {
+"streetAddress": "Strada Academiei 11", "postalCode": "MD-2028", "addressDetails": {
+"country": {
+"scheme": "iso-alpha2", 
+"id": "MD", 
+"description": "MOLDOVA", 
+"uri": "http://reference.iatistandard.org"}, 
+"region": {
+"scheme": "CUATM", 
+"id": "0101000", "description":"mun.Chişinău", 
+"uri":"http://statistica.md",
+"locality": {
+"scheme": "UN/LOCODE", 
+"id": "0101000", 
+"description": "mun.Chişinău"}}}}}], 
+"classification": {
+"scheme": "CPV", 
+"id": "15800000-6", 
+"description": "Diverse produse alimentare"}, 
+"mainProcurementCategory": "goods", 
+"procurementMethod": "open", 
+"procurementMethodDetails": "Licitație deschisă"}, 
+"awards": [{
+"id": "5094d974-2ea3-11e9-afab-ab6fe1cdb989", 
+"description": "Cel mai bun raport calitate cost, corespunderea cerințelor.", "status": "active", 
+"statusDetails": "empty", 
+"date": "2019-02-13T09:45:52Z", 
+"value": {
+"amount": 5000000.00, 
+"currency": "MDL"}, 
+"suppliers": [{
+"id": "MD-IDNO-1014600014357",
+"name": "Moravix"}], 
+"items": [{
+"id": "bce2f2f0-2459-11e9-bc94-25b0c2da1c29", 
+"description": "Set unic de produse alimentare destinat alimentaţiei…", 
+"classification": {
+"scheme": "CPV", 
+"id": "15800000-6", 
+"description": "Diverse produse alimentare"}, 
+"quantity": 60000.0, 
+"unit": {
+"name": "Bucata", 
+"id": "794"}, 
+"relatedLot": "bce2f2f1-2459-11e9-bc94-25b0c2da1c29"}],
+"documents": [{
+"id": "6b7a816c-2e0b-478f-9bcd-0de9bffdff47-1550051116540", "documentType": "evaluationReports", 
+"title": "pv evaluare set unic alimentar repetat.pdf", 
+"url": "http://storage.mtender.gov.md/get/6b7a816c-2e0b-478f-9bcd-0de9bffdff47-1550051116540", 
+"datePublished": "2019-02-13T09:45:20Z", 
+"relatedLots": ["bce2f2f1-2459-11e9-bc94-25b0c2da1c29"]}],
+"relatedLots": ["bce2f2f1-2459-11e9-bc94-25b0c2da1c29"], 
+"relatedBid": "b6c1e8a0-2e30-11e9-b745-996861c34981"}],
+"contracts": [{
+"id": "ocds-b3wdp1-MD-1548828390760-AC-1551304508588", 
+"date": "2019-02-13T09:45:47Z", 
+"awardId": "5094d974-2ea3-11e9-afab-ab6fe1cdb989", 
+"status": "pending", 
+"statusDetails": "contractProject", 
+"agreedMetrics": [{
+"id": "cc-general", 
+"title": "Responsabilități generale", 
+"description": "Condiții contractuale care reglementează…", 
+"observations": [{
+"id": "cc-general-1-1", 
+"notes": "Nr. max. de zile pentru informarea…", 
+"unit": {
+"id": "359", 
+"name": "ziua", 
+"scheme": "MD-CUMC"}}]}], 
+"parties": [{
+"id": "MD-IDNO-1014600014357", 
+"name": "Moravix", 
+"identifier": {
+"scheme": "MD-IDNO", 
+"id": "1014600014357", 
+"legalName": "Moravix"}, 
+"address": {
+"streetAddress": "Str Aleco Russo 5/2 ap 158", 
+"postalCode": "2068", 
+"addressDetails": {
+"country": {
+"scheme": "iso-alpha2", 
+"id": "MD", 
+"description": "MOLDOVA", 
+"uri": "http://reference.iatistandard.org"}, 
+"region": {
+"scheme": "CUATM", 
+"id": "0101000", 
+"description": "mun.Chişinău", 
+"uri": "http://statistica.md"}, 
+"locality": {
+"scheme": "CUATM", 
+"id": "0101000", 
+"description": "mun.Chişinău", 
+"uri": "http://statistica.md"}}}, 
+"contactPoint": {
+"name": "Morari Rodion", 
+"email": "Moravix@gmail.com", 
+"telephone": "078887886"}, 
+"details": {
+"scale": "micro"}, 
+"roles": ["supplier", "payee"]}], 
+"relatedProcesses": [{
+"id": "240ffc52-2f74-11e9-a0b8-97fb44d71bd8", 
+"relationship": ["x_evaluation"], 
+"scheme": "ocid", 
+"identifier": "ocds-b3wdp1-MD-1548828390760-EV-1548830345267", 
+"uri": "http://public.mtender.gov.md/tenders/ocds-b3wdp1-MD-1548828390760/ocds-b3wdp1-MD-1548828390760-EV-1548830345267"}, 
+{
+"id": "240ffc50-2f74-11e9-a0b8-97fb44d71bd8", 
+"relationship": ["parent"], 
+"scheme": "ocid", 
+"identifier": "ocds-b3wdp1-MD-1548828390760", 
+"uri": "http://public.mtender.gov.md/tenders/ocds-b3wdp1-MD-1548828390760/ocds-b3wdp1-MD-1548828390760"}]}]
+}
