@@ -3,7 +3,7 @@
 ## Moldova: Policy and Business Advice and Support in Legislative Drafting for eProcurement Reforms
 
 ### Description:
-OCDS-based visualisation tool and OCDS data feed are redeveloped to handle available data sources, data quality is assessed and data consolidation architecture is evaluated.
+[OCDS](https://standard.open-contracting.org/latest/en/)-based visualisation tool and [OCDS](https://standard.open-contracting.org/latest/en/) data feed are redeveloped to handle available data sources, data quality is assessed and data consolidation architecture is evaluated.
 
 ### Project timeline:
 
@@ -21,7 +21,7 @@ The value and reliability of knowledge obtained as a result of data analysis dep
 
 Therefore, before proceeding with the development of the analytical tools, it is necessary to perform a number of procedures in order to identify all the possible bottlenecks and be aware of the quality, integrity and consistency of data as well as to identify what causes the data quality problems and make a decision on how to eliminate those issues.
 
-OCDS standard was created to enable the publication of information on public procurement processes in a structured, unambiguous way, ensuring data consistency and compatibility. OCDS usage is intended to help developers of analytical tools in the data integration and consolidation process.
+[OCDS](https://standard.open-contracting.org/latest/en/) standard was created to enable the publication of information on public procurement processes in a structured, unambiguous way, ensuring data consistency and compatibility. [OCDS](https://standard.open-contracting.org/latest/en/) usage is intended to help developers of analytical tools in the data integration and consolidation process.
 
 The problem statement for this project was designed according to the requirement to redevelop the existing Moldova OCDS Contract Data Visualisation tool. The input data that should be used for redevelopment are as follows:
 
