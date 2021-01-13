@@ -68,7 +68,7 @@ Several steps were performed in order to redevelop the existing old version of t
 - Redevelopment of the visual part of the [website](https://opencontracting.eprocurement.systems).
 
 ## Results and further steps
-The differences between the systems and approaches to the publication of data in the [OCDS](https://standard.open-contracting.org/latest/en/) format led to our decision to consolidate the multi-platform system data at the database level. We created a dedicated [OCDS](https://standard.open-contracting.org/latest/en/) database using the MongoDB database and organised the storage of all data in the special collections to consolidate the multi-platform system data. We consider this approach the most suitable in similar situations.
+The differences between the data sources and approaches to the publication of data in the [OCDS](https://standard.open-contracting.org/latest/en/) format led to our decision to consolidate the multi-platform system data at the database level. We created a dedicated [OCDS](https://standard.open-contracting.org/latest/en/) database using the MongoDB database and organised the storage of all data in the special collections to consolidate the multi-platform system data. We consider this approach the most suitable in similar situations.
 
 For future development, when the amount of data will have increased, the queries for the tables should be updated. The current request is time-consuming and needs to be updated, as well as a pagination method, which can sometimes cause the freezing due to a memory leak.
 
@@ -82,8 +82,8 @@ Three issues were determined among the key information on tenderers during the d
 
 The main reason for all the issues is wrong, unverified data input. We recommend the following steps to eliminate the issues above:
 
-- **Add validation to existing input systems available on platforms**: check out the number of spaces entered, the format of identifiers, empty input, etc.;
-- **Integrate available official registers and catalogues with the existing input systems**: it means that the tenderer can be authorised in the system only with the identifier and legal name contained in the official register and a drop-down selection menu provided to enable the selection of the proper values from the official catalogues.
+- **Add validation to existing input data sources available on platforms**: check out the number of spaces entered, the format of identifiers, empty input, etc.;
+- **Integrate available official registers and catalogues with the existing input data sources**: it means that the tenderer can be authorised in the system only with the identifier and legal name contained in the official register and a drop-down selection menu provided to enable the selection of the proper values from the official catalogues.
 
 Another issue was that the **registry of CAs data isn&#39;t publicly available**. To resolve this issue, we recommend that all official registers and catalogues are made available for public use.
 
@@ -94,7 +94,7 @@ During the redevelopment of the tool we worked with the scrapped data from the [
 
 The [OCDS](https://standard.open-contracting.org/latest/en/) standard allows different structures for the data that is to be published. It is very convenient for depicting local public procurement processes, but it leads to difficulties in operating with, and understanding, the published data and its structure. It also leads to the technical issues, for example: when it is necessary to get data from the release packages of one data source and record packages of another data source, we cannot use the same import scripts, and they have to be adjusted for each data source.
 
-Another difficulty is associated with the semantic meaning that each variable is endowed with – each publisher has to provide a unified semantic meaning for each variable published. Also, we encountered the issue with a different process representation: in one system contracting process ends on the contracting stage, while in another system, it ends up on the awarding stage.
+Another difficulty is associated with the semantic meaning that each variable is endowed with – each publisher has to provide a unified semantic meaning for each variable published. Also, we encountered the issue with a different process representation: in one data source contracting process ends on the contracting stage, while in another data source, it ends up on the awarding stage.
 
 All these issues should be addressed and resolved to avoid issues with data consolidation and integration in the future.
 
